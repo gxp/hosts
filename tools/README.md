@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 **除Script外，其他所有项目均已迁移至  [@HostsTools](https://github.com/HostsTools)**
+=======
+**除脚本外，其他工具已迁移至  [HostsTools](https://github.com/HostsTools)**
+>>>>>>> 031ac754c1aa532f26692339fd54ccf3f1d7fd36
 
 平台 | 类型
 --------|---------
@@ -13,22 +17,38 @@ Android | Android应用
 - QT GUI 应用（可跨平台，C++ 编写）
 
 ### Windows
+<<<<<<< HEAD
 - Windows 平台的终端工具（C++编写）
+=======
+- Windows 平台的终端工具（C++ 编写）
+>>>>>>> 031ac754c1aa532f26692339fd54ccf3f1d7fd36
 
 ### OSX
 - Mac 环境下的 hosts 自动部署应用 (适用于 OS X 10.10 或以上, Swift 编写)
 
 ### Android
+<<<<<<< HEAD
 - Android下的hosts更新应用(java编写，需root)
+=======
+- Android 下的 hosts 更新应用(Java 编写)
+>>>>>>> 031ac754c1aa532f26692339fd54ccf3f1d7fd36
 
 ### 脚本
 - [**windows.bat**](http://keving.pythonanywhere.com/hosts_scripts/windows.bat)
   - Windows 环境下的 hosts 一键部署脚本，双击 `windows.bat` 即可更新。
+<<<<<<< HEAD
   - 如有异常，请脚本确认是否为 UTF-8 编码
 
 - [**lhosts**](http://keving.pythonanywhere.com/hosts_scripts/lhosts)
   - *nix 平台自动部署脚本，使用 `./lhosts -h` 命令获取帮助信息。
   - 点击链接下载时，请为脚本添加可执行权限，执行 `chmod 0755 lhosts`
+=======
+  - 如有异常，请确认脚本是否为 UTF-8 编码
+
+- [**lhosts**](http://keving.pythonanywhere.com/hosts_scripts/lhosts)
+  - *nix 平台自动部署脚本，使用 `./lhosts -h` 命令获取帮助信息。
+  - 点击链接下载时，请为脚本添加可执行权限，执行 `chmod a+x lhosts`
+>>>>>>> 031ac754c1aa532f26692339fd54ccf3f1d7fd36
 
 ### 跨平台工具
 - **Hozz**
